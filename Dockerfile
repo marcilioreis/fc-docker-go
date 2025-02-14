@@ -12,3 +12,4 @@ FROM scratch
 WORKDIR /app
 COPY --from=builder /app ./
 CMD ["./fc-docker-go"]
+
